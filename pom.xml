@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.chuvaev.enterprise</groupId>
-    <artifactId>javaEE</artifactId>
+    <artifactId>javaee</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
 
@@ -34,7 +34,7 @@
     </dependencies>
 
     <build>
-        <finalName>javaEE</finalName>
+        <finalName>javaee</finalName>
         <plugins>
             <plugin>
                 <groupId>org.wildfly.plugins</groupId>
