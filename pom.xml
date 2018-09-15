@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.chuvaev.enterprise</groupId>
+    <groupId>chuvaev.enterprise</groupId>
     <artifactId>javaee</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
 
-    <name>javaEE</name>
+    <name>javaee</name>
     <developers>
         <developer>
             <id>chuvaev</id>
@@ -31,6 +31,23 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>13.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.2</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -43,4 +60,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
